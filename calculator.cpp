@@ -1,12 +1,12 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <conio.h>
 
 using namespace std;
 
 float x, y;
-int inp;
+char inp;
 
 int main()
 {
@@ -26,33 +26,33 @@ int main()
     cout<< "4. Division"<<endl;
     cout<< "5. End of the program"<<endl;
 
-    cout<<"Choose action: "<<endl;
-    cin>>inp;
+    cout<<endl;
+    inp=getch();
 
     switch(inp)
     {
-        case 1: 
+        case '1': 
         {
             cout<<"Equals = "<<x+y;
         }
         break;
-        case 2:
+        case '2':
         {
             cout<<"Equals = "<<x-y;
         }
         break;
-        case 3:
+        case '3':
         {
             cout<<"Equals = "<<x*y;
         }
         break;
-        case 4:
+        case '4':
         {
             if (y==0) cout<<"No Division!"<<endl;
             cout<<"Equals = "<<x/y;
         }
         break;
-        case 5:
+        case '5':
         {
             exit(0);
         }
