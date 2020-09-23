@@ -1,1 +1,1 @@
-# HI, I introduce to you my simple  projects, with using C++.
+# Hello, I introduce to you my simple  projects, with using C++.
